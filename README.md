@@ -1,8 +1,12 @@
-# 红球狗狗 · Dog Platformer
+# 红球狗狗 · RedDogPlatformer
 
 一款让你在**工作紧张之余放松身心**的横版过关小游戏，灵感来自经典《超级玛丽》，但主角是一只圆滚滚的红色狗狗。
 
 > 下班路上、午休间隙，掏出手机跳两关——躲尖刺、踩弹跳垫、吃骨头变大，找回小时候玩红白机的快乐。
+
+## 截图
+
+![游戏画面](screenshots/gameplay.png)
 
 ## 特点
 
@@ -76,7 +80,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 ## 项目结构
 
-```
+```text
 app/src/main/kotlin/com/doggame/platformer/
 ├── GameView.kt       # 游戏主逻辑：关卡、物理、碰撞、渲染、HUD
 ├── MainActivity.kt   # 入口 Activity：全屏沉浸式
