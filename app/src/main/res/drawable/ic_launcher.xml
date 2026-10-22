@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 暖奶油背景 -->
+    <path
+        android:fillColor="#FFF6EC"
+        android:pathData="M0,0 h108 v108 h-108 Z" />
+
+    <!-- 左耳（深红圆耳） -->
+    <path
+        android:fillColor="#C4312B"
+        android:pathData="M16,32 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0" />
+    <!-- 右耳 -->
+    <path
+        android:fillColor="#C4312B"
+        android:pathData="M66,32 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0" />
+
+    <!-- 圆圆的红脑袋（红球） -->
+    <path
+        android:fillColor="#E8443A"
+        android:pathData="M22,56 a32,32 0 1,0 64,0 a32,32 0 1,0 -64,0" />
+
+    <!-- 高光（左上，让脑袋有圆球的立体感） -->
+    <path
+        android:fillColor="#59FFFFFF"
+        android:pathData="M32,40 a20,20 0 0,1 22,-8 a16,16 0 0,0 -16,16 a20,20 0 0,0 1,7 Z" />
+
+    <!-- 左眼白 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,54 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <!-- 右眼白 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,54 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+    <!-- 左瞳孔 -->
+    <path
+        android:fillColor="#3B2A1E"
+        android:pathData="M39,55 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+    <!-- 右瞳孔 -->
+    <path
+        android:fillColor="#3B2A1E"
+        android:pathData="M63,55 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+
+    <!-- 左高光点 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42.9,53 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
+    <!-- 右高光点 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66.9,53 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
+
+    <!-- 鼻子 -->
+    <path
+        android:fillColor="#5A3A28"
+        android:pathData="M48.5,68 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0" />
+
+    <!-- 微笑 -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M46,79 Q54,86 62,79" />
+
+    <!-- 左腮红 -->
+    <path
+        android:fillColor="#66F5B3A6"
+        android:pathData="M26,70 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <!-- 右腮红 -->
+    <path
+        android:fillColor="#66F5B3A6"
+        android:pathData="M70,70 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+</vector>
